@@ -1,0 +1,24 @@
+.navbar {
+    background-color: white;
+    opacity: 0.95;
+    .collapse {
+        justify-content: center;
+        .navbar-nav {
+            align-items: center;
+            a.nav-link {
+                padding-left: 22px;
+                padding-right: 22px;
+                font-size: 1.1rem;
+            }
+        }
+    }
+}
+
+.collapsing {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    .navbar-nav {
+        align-items: center;
+    }
+}

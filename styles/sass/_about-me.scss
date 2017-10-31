@@ -1,0 +1,22 @@
+.about-me {
+    // text-align: justify;
+    padding-top: 55px;
+    padding-bottom: 97px;
+    .profile-photo {
+        width: 100%;
+        border: none;
+        overflow: hidden;
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .about-me {
+        p {
+            padding-right: 30px;
+        }
+        .profile-photo {
+            display: inline-block;
+        }
+    }
+}
