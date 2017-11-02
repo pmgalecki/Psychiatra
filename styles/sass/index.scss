@@ -1,5 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Lora:400,400i|Vollkorn:400,400i');
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn:400,400i');
+
+@font-face {
+    font-family: "Lato";
+    src: url("../../assets/fonts/Lato/Lato-Light.ttf") format("ttf");         
+}
 
 $font1: 'Vollkorn', serif;
 $font2: 'Lora', serif;
@@ -27,13 +31,13 @@ p,
 li,
 a {
     font-family: $font3;
-    color: rgb(95, 95, 95);
+    color: rgb(65, 65, 65);
 }
 
 p,
 li {
     line-height: 1.7rem;
-    font-size: 1.17rem;
+    font-size: 1.1rem;
     font-weight: 300;
 }
 
@@ -46,18 +50,23 @@ li {
 
 .display-3,
 .lead {
-    font-family: $font1
+    font-family: $font1;
 }
 
 section {
     padding: 85px 0;
 }
 
+.font-weight-bold {
+    font-weight: 600;
+}
+
 @media (min-width: 768px) {
     p,
     li,
-    a {
+    .references a {
         letter-spacing: 0.01rem;
+        font-size: 1.165rem;
     }
 }
 
