@@ -1,7 +1,7 @@
 
 .jumbotron {
     text-align: center;
-    background-image: url('../../assets/images/background-3.jpg');
+    background-image: url('../../assets/images/background-small.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@
 
 @media (min-width: 576px) {
     .jumbotron {
+        background-image: url('../../assets/images/background-4.jpg');
         .display-3 {
             font-size: 5.1rem;
             margin-top: 150px;
