@@ -1,7 +1,19 @@
-@import url("https://fonts.googleapis.com/css?family=Vollkorn:400,400i");
+@font-face {
+  font-family: "Vollkorn";
+  font-weight: 400;
+  src: url("../../assets/fonts/Vollkorn/Vollkorn-Regular.ttf") format("ttf"), url("../../assets/fonts/Vollkorn/Vollkorn-Regular.woff") format("woff"), url("../../assets/fonts/Vollkorn/Vollkorn-Regular.woff2") format("woff2"), url("../../assets/fonts/Vollkorn/Vollkorn-Regular.eot") format("eot");
+}
+
 @font-face {
   font-family: "Lato";
-  src: url("../../assets/fonts/Lato/Lato-Light.ttf") format("ttf");
+  font-weight: 300;
+  src: url("../../assets/fonts/Lato/Lato-Light.ttf") format("ttf"), url("../../assets/fonts/Lato/Lato-Light.woff") format("woff"), url("../../assets/fonts/Lato/Lato-Light.woff2") format("woff2"), url("../../assets/fonts/Lato/Lato-Light.eot") format("eot");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-weight: 400;
+  src: url("../../assets/fonts/Lato/Lato-Regular.ttf") format("ttf"), url("../../assets/fonts/Lato/Lato-Regular.woff") format("woff"), url("../../assets/fonts/Lato/Lato-Regular.woff2") format("woff2"), url("../../assets/fonts/Lato/Lato-Regular.eot") format("eot");
 }
 
 h1 {
@@ -47,10 +59,6 @@ li {
 
 section {
   padding: 85px 0;
-}
-
-.font-weight-bold {
-  font-weight: 600;
 }
 
 @media (min-width: 768px) {
@@ -100,7 +108,7 @@ section {
 
 .jumbotron {
   text-align: center;
-  background-image: url("../../assets/images/background-2.jpg");
+  background-image: url("../../assets/images/background-3.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -109,21 +117,34 @@ section {
 
 .jumbotron .display-3 {
   color: white;
-  margin-top: 150px;
+  margin-top: 80px;
   margin-bottom: 10px;
   border: none;
+  font-size: 3.8rem;
+  border-bottom: 1.7px solid white;
 }
 
 .jumbotron .lead {
   color: white;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .jumbotron .fa {
   color: white;
   margin: 30px 0;
+}
+
+@media (min-width: 576px) {
+  .jumbotron .display-3 {
+    font-size: 5.1rem;
+    margin-top: 150px;
+  }
+  .jumbotron .lead {
+    font-size: 1.5rem;
+  }
 }
 
 .about-me {
