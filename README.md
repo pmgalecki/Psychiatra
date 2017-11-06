@@ -13,5 +13,5 @@ Technologies used:
   * gulp-sass
   * browserSync
   * autoprefixer
-3. Bootstrap
+3. Bootstrap v4.0
 4. VS Code editor
