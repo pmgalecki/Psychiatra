@@ -10,8 +10,8 @@ Technologies used:
 
 1. SASS
 2. Gulp:
-..* gulp-sass
-..* browserSync
-..* autoprefixer
+  * gulp-sass
+  * browserSync
+  * autoprefixer
 3. Bootstrap
-4. VS Code 
+4. VS Code editor
